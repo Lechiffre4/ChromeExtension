@@ -1,14 +1,11 @@
 {
-    "manifest_version": 2,
-   
-    "name": "Modify HTML",
-    "version": "0.1.0",
-    "description": "Modify HTML",
-   
-    "content_scripts": [{
-      "css": ["styles.css"],
-      "js": ["content.js"],
-      "matches": ["https://blog.lateral.io/*"]
-    }]
-   
-  }
+    "name": "Extension Test",
+    "version": "1.0",
+    "description": "Test extension",
+    "author": "Test",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Test"
+    }
+}
